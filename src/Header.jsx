@@ -10,7 +10,7 @@ const Header = () => {
           name="my portfolio"
         />
         <Menu.Item
-          id="about-tab"
+          id="about-header"
           name="About Me"
           />
       </Menu>

@@ -10,12 +10,13 @@ const App = () => {
     <>
       <Header />
       <Switch>
-        <Route exact path="/Hello" component={Hello}></Route>
+        <Route exact path="/" component={Hello}></Route>
         <Route exact path="/about" component={About}></Route>
+        <Hello />
       </Switch>
       <Footer />
     </>
   );
 };
 
-export default App
+export default App;
