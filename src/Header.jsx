@@ -8,6 +8,10 @@ const Header = () => {
         <Menu.Item
           id="header"
           name="my portfolio"
+        />
+        <Menu.Item
+          id="about-tab"
+          name="About Me"
           />
       </Menu>
     </Segment>
