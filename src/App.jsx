@@ -6,11 +6,11 @@ import Footer from './Footer';
 const App = () => {
   return (
     <>
-      <Header/>
-      <Hello/>
-      <Footer/>
+      <Header />
+      <Hello />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
 export default App
