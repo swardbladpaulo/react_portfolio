@@ -12,5 +12,14 @@ describe('User can navigate the app', () => {
     /*cy.get('#hello').should("not.exist");*/
   });
 
+  it('if select My Projects on the top menu in the header.jsx', () => {
+    /*cy.get('#projects-tab').click();*/
+
+    cy.get('#project-header').should("contain", "My Projects");
+
+    /*cy.get('#about-header').should("not.exist");*/
+    /*cy.get('#hello').should("not.exist");*/
+  });
+
 })
 

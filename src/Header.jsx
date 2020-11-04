@@ -12,7 +12,11 @@ const Header = () => {
         <Menu.Item
           id="about-header"
           name="About Me"
-          />
+        />
+        <Menu.Item
+          id="project-header"
+          name="My Projects"
+        />
       </Menu>
     </Segment>
   );
