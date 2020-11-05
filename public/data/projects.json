@@ -8,13 +8,13 @@
   {
     "id": 2,
     "name": "Fizzbuzz",
-    "image": "./src/data/images/brushlogo.png",
+    "image": "/src/data/images/brushlogo.png",
     "description": "Designing user interfaces is fun."
   },
   {
     "id": 3,
     "name": "Mobile UX",
-    "image": "./src/data/images/csslogo.png",
+    "image": "/src/data/images/csslogo.png",
     "description": "I like to design for the mobile platform."
   }
 ]
