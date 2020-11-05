@@ -1,10 +1,20 @@
 [
   {
     "id": 1,
-    "name": "My First Website"
+    "name": "My First Website",
+    "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
+    "description": "This was my first project. The guy lost, but won the popular vote!"
   },
   {
     "id": 2,
-    "name": "Fizzbuzz"
+    "name": "Fizzbuzz",
+    "image": "./src/data/images/brushlogo.png",
+    "description": "Designing user interfaces is fun."
+  },
+  {
+    "id": 3,
+    "name": "Mobile UX",
+    "image": "./src/data/images/csslogo.png",
+    "description": "I like to design for the mobile platform."
   }
 ]
