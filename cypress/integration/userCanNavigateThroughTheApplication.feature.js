@@ -17,7 +17,7 @@ describe('User can navigate the app', () => {
     });
 
     it('does not display My Projects header', () => {
-      cy.get('#project-header').should("not.exist");
+      cy.get('#projects-header').should("not.exist");
     });
 
     it('does not display Hello World', () => {
@@ -25,13 +25,13 @@ describe('User can navigate the app', () => {
     });
   });
 
-  describe('to My Project tab and it', () => {
+  describe('to My Projects tab and it', () => {
     beforeEach(() => {
-      cy.get("#project-tab").click();
+      cy.get("#projects-tab").click();
     });
 
-    it('displays My Project header', () => {
-      cy.get('#project-header').should("contain", "My Projects");
+    it('displays My Projects header', () => {
+      cy.get('#projects-header').should("contain", "My Projects");
     });
 
     it('displays component name in url', () => {
@@ -68,7 +68,7 @@ describe('User can navigate the app', () => {
     });
 
     it('does not display My Projects header', () => {
-      cy.get('#project-header').should("not.exist");
+      cy.get('#projects-header').should("not.exist");
     });
   });
 });
