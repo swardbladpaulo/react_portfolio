@@ -1,3 +1,5 @@
+/*Getting info from projects.json*/
+
 import React, { Component } from 'react';
 import { Container, Grid } from 'semantic-ui-react';
 import ProjectCard from './ProjectCard';

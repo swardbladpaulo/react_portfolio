@@ -1,3 +1,5 @@
+/*userCanSeeListOfProjects.feature.js => projects.json*/
+
 describe('User can see list of project', () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000");

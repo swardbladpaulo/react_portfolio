@@ -2,13 +2,13 @@
   {
     "id": 1,
     "name": "My First Website",
-    "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-    "description": "This was my first project. The guy lost, but won the popular vote!"
+    "image": "./data/images/devpuzzle.jpeg",
+    "description": "This was my first project. The guy lost"
   },
   {
     "id": 2,
     "name": "Fizzbuzz",
-    "image": "./data/images/devpuzzle.jpeg",
+    "image": "./data/images/fizzbuzz.png",
     "description": "Designing user interfaces is fun."
   },
   {
