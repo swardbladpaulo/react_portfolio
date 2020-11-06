@@ -24,6 +24,7 @@ const About = () => {
             
           <div className="ten wide column">
             <p>Add text 1</p>
+            <p>Add text 2</p>
             </div>
             
           <div className="three wide column">
