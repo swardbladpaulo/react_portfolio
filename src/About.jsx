@@ -5,8 +5,15 @@ const About = () => {
   return (
     <Container >
       <h1 id="about-header">About Me</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis assumenda voluptas consectetur, velit tempore.</p>
-  </Container>
+      
+      <h3 className="ui dividing header">General</h3>
+  
+    
+    
+    
+    
+      <img class="ui fluid image" src="./data/images/csslogo.png"></img>
+    </Container>
   );
 };
 

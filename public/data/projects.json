@@ -13,8 +13,8 @@
   },
   {
     "id": 3,
-    "name": "Mobile UX",
-    "image": "./data/images/csslogo.png",
+    "name": "BMI Calculator",
+    "image": "./data/images/bmicalc.png",
     "description": "I like to design for the mobile platform."
   }
 ]
