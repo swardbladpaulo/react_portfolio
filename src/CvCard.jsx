@@ -7,6 +7,8 @@ const CvCard = ({ cv }) => {
       <Image src={cv.image} wrapped ui={false} />
       <Card.Content>
         <Card.Header>{cv.name}</Card.Header>
+        <Card.Description>{cv.title}</Card.Description>
+        <Card.Description>{cv.timeline}</Card.Description>
         <Card.Description>{cv.description}</Card.Description>
       </Card.Content>
     </Card>

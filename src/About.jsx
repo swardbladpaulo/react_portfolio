@@ -23,8 +23,8 @@ const About = () => {
           </div>
             
           <div className="ten wide column">
-            <p>Add text 1</p>
-            <p>Add text 2</p>
+            <p>Im a awesome dude who likes fast cars, motorcycles and helicopters.</p>
+            <p>I live in the beautiful capital of Sweden, Stockholm.</p>
             </div>
             
           <div className="three wide column">
