@@ -8,22 +8,22 @@ describe('User can see cv list', () => {
 
   it('displays first cvbox', () => {
     cy.get('#cv-1').within(() => {
-      cy.get('.header').should("contain", "cvbox-1");
-      cy.get('.description').should("contain", "description cvbox-1");  
+      cy.get('.header').should("contain", "Craft Academy");
+      cy.get('.description').should("contain", "Study to became fullstack webdeveloper");  
     });
   });
 
   it('displays second cvbox', () => {
     cy.get('#cv-2').within(() => {
-      cy.get('.header').should("contain", "cvbox-2");
-      cy.get('.description').should("contain", "description cvbox-2");
+      cy.get('.header').should("contain", "Business Contractor");
+      cy.get('.description').should("contain", "Providing companies to optimize and structur their business when grouth");
     });
   });
 
   it('displays third cvbox', () => {
     cy.get('#cv-3').within(() => {
-      cy.get('.header').should("contain", "cvbox-3");
-      cy.get('.description').should("contain", "description cvbox-3");
+      cy.get('.header').should("contain", "Restaurang La Isla");
+      cy.get('.description').should("contain", "Responsible for the nightclub operation, security, statt, purchase, food, marketing, events, VIP:s and ensure flawless guest service experience in the club.");
     });
   });
 
