@@ -3,7 +3,7 @@ import { Card, Image } from 'semantic-ui-react';
 
 const CvCard = ({ cv }) => {
   return (
-    <Card>
+    <Card id="cvcard">
       <Image src={cv.image} wrapped ui={false} />
       <Card.Content>
         <Card.Header>{cv.name}</Card.Header>

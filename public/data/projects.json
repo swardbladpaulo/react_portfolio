@@ -3,18 +3,21 @@
     "id": 1,
     "name": "My First Website",
     "image": "./data/images/devpuzzle.jpeg",
-    "description": "This was my first project. The guy lost"
+    "description": "This was my first website",
+    "link": "https://github.com/swardbladpaulo/hello_world_react"
   },
   {
     "id": 2,
     "name": "Fizzbuzz",
-    "image": "./data/images/fizzbuzz.png",
-    "description": "Designing user interfaces is fun."
+    "image": "./data/images/fizzbuzz.png ",
+    "description": "Lets play some fizzbuzz.",
+    "link": "https://github.com/swardbladpaulo/fizzbuzz"
   },
   {
     "id": 3,
     "name": "BMI Calculator",
     "image": "./data/images/bmicalc.png",
-    "description": "I like to design for the mobile platform."
+    "description": "My third project was to build a BMI Calculator.",
+    "link": "https://github.com/swardbladpaulo/w3_bmicalculator"
   }
 ]

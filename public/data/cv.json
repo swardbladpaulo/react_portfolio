@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "name": "cvbox-1",
-    "description": "description cvbox-1",
-    "title": "Title-1",
-    "timeline": "Timeline 1 xxxx-xx-xx - xxxx-xx-xx"
+    "name": "Craft Academy",
+    "description": "Study to became fullstack webdeveloper",
+    "title": "Student",
+    "timeline": "2020-10-26 - "
   },
   {
     "id": 2,
-    "name": "cvbox-2",
-    "description": "description cvbox-2",
-    "title": "Title-2",
-    "timeline": "Timeline 2 xxxx-xx-xx - xxxx-xx-xx"
+    "name": "Business Contractor",
+    "description": "Providing companies to optimize and structur their business when grouth",
+    "title": "Business Developer Consultant",
+    "timeline": "2009 - "
   },
   {
     "id": 3,
-    "name": "cvbox-3",
-    "description": "description cvbox-3",
-    "title": "Title-3",
-    "timeline": "Timeline 3 xxxx-xx-xx - xxxx-xx-xx"
+    "name": "Restaurang La Isla",
+    "description": "Responsible for the nightclub operation, security, statt, purchase, food, marketing, events, VIP:s and ensure flawless guest service experience in the club.",
+    "title": "Restaurang & Nightclub manager",
+    "timeline": "2004 - 2009"
   }
 ]

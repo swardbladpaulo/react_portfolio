@@ -11,9 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/*
+.hero-image {
+  background-size: cover;
+  height: auto;
+  width: 200vh;
+  padding-left: 450px;
+}
+*/
+.hero-text {
+  text-align: center;
+  color: white;
+  margin-top: 220px;
+}
 
+.hello {
+  padding-top: 25px;
+}
+
+#hello {
+  color: white;
+  margin-left: 25px;
+}
+
+/* the navbar
+.ui.inverted.segment {
+  position: fixed;
+}
+*/
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: 60px;
@@ -25,6 +52,28 @@ footer {
   text-align: center;
 }
 
+#button-left {
+  background-color: red;
+}
+
+#projectcard {
+  margin-top: 50px;
+  margin-bottom: 250px;
+  width: 250px;
+  height: 400px;
+}
+
+#projectcardimage {
+  height: 250px;
+  background-color: white;
+}
+
+#cvcard {
+  margin-top: 50px;
+  margin-bottom: 250px;
+  width: 250px;
+  height: 400px;
+}
 .container {
-  margin-top: 4em;
+  margin-top: 0;
 }
