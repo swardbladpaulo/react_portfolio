@@ -55,8 +55,8 @@ describe('User can navigate the app', () => {
       cy.get("#header").click();
     });
 
-    it('displays Hello World', () => {
-      cy.get('#hello').should("contain", "Hello");
+    it('displays Hello Welcome to my Portfolio', () => {
+      cy.get('#hello').should("contain", "Welcome to my Portfolio");
     });
 
     it('displays correct url', () => {

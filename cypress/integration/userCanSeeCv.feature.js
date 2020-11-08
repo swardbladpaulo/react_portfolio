@@ -16,14 +16,14 @@ describe('User can see cv list', () => {
   it('displays second cvbox', () => {
     cy.get('#cv-2').within(() => {
       cy.get('.header').should("contain", "Business Contractor");
-      cy.get('.description').should("contain", "Providing companies to optimize and structur their business when grouth");
+      cy.get('.description').should("contain", "Providing companies to optimize and structur their business when growth");
     });
   });
 
   it('displays third cvbox', () => {
     cy.get('#cv-3').within(() => {
       cy.get('.header').should("contain", "Restaurang La Isla");
-      cy.get('.description').should("contain", "Responsible for the nightclub operation, security, statt, purchase, food, marketing, events, VIP:s and ensure flawless guest service experience in the club.");
+      cy.get('.description').should("contain", "Responsible for the nightclub operation, security, staff, purchase, food, marketing, events, VIP:s and ensure flawless guest service experience in the club.");
     });
   });
 
