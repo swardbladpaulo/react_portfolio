@@ -22,7 +22,7 @@ const About = () => {
         </div>
         
         <div className="column">
-          <img src="./data/images/devpuzzle.jpeg"></img>
+          <img src="./data/images/devpuzzle.jpeg" alt="puzzle"></img>
         </div>
       </div>
 
@@ -31,22 +31,17 @@ const About = () => {
         <div className="row">
 
           <div className="three wide column">
-            <img src="./data/images/IMG_6523.jpeg"></img>
+            <img src="./data/images/IMG_6523.jpeg" alt="me"></img>
           </div>
             
           <div className="ten wide column">
             <p>Im a awesome dude who likes fast cars, motorcycles and helicopters.</p>
             <p>I live in the beautiful capital of Sweden, Stockholm.</p>
           </div>
-            
-          <div className="three wide column"></div>
-            <h3 className="ui dividing header"></h3>
-            
         </div>
       </div>
     </Container>
   );
 };
-
 
 export default About;
