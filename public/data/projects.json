@@ -19,5 +19,19 @@
     "image": "./data/images/bmicalc.png",
     "description": "My third project was to build a BMI Calculator.",
     "link": "https://github.com/swardbladpaulo/w3_bmicalculator"
+  },
+  {
+    "id": 4,
+    "name": "Rails Project",
+    "image": "./data/images/Ruby-on-Rails-Logo.jpeg",
+    "description": "My Ruby on Rails project was to build a...",
+    "link": "https://www.aftonbladet.se/"
+  },
+  {
+    "id": 5,
+    "name": "BMI Calculator with React",
+    "image": "./data/images/bmicalc.png",
+    "description": "BMI Calculator with React",
+    "link": "https://www.aftonbladet.se/" 
   }
 ]
